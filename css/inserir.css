@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; background-color: grey;
+   
+}
+#janela_formulario form{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+#janela_formulario form h2{
+margin-bottom:30px;
+}
+#janela_formulario form label{
+    padding:10px;
+    color:black;
+}
+#janela_formulario form input{
+    padding: 10px;
+    background-color:white;
+
+}
+#janela_formulario form select{
+    background-color:white;
+}
+#janela_formulario form [type="submit"]{
+    margin-top: 20px;
+    background-color: rgb(94, 198, 94);
+    cursor: pointer;
+}

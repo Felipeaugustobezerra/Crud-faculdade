@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color:#adb8c1;
+}
+nav{
+    margin:30px;
+    display:flex;
+    justify-content: center;
+    
+}
+nav a {
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: yellow;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+#janela_transportadoras ul{
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+#janela_transportadoras li{
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    background-color: antiquewhite;
+    
+}
+li a {
+
+    background-color:antiquewhite;
+    cursor: pointer;
+    border: 1px solid black;
+    
+} 
+a.alterar{
+    background-color:orange;
+    padding:5px;
+}
+a.excluir{
+    background-color:red;
+    padding:5px;
+}

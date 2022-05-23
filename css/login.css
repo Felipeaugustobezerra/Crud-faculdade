@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div#janela_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0182F1;
+    height: 100vh;
+}
+div#janela_login form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height:400px;
+    background-image: url(/capa-house.jpg);
+}
+div#janela_login form h2{
+    padding: 10px 20px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;;
+    
+}
+div#janela_login form input{
+    padding:20px 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border:none;
+}
+div#janela_login form input[type="submit"]{
+    background-color: #12CC96;
+    border: 1px solid black;
+    color:white;
+}
+
+main div#janela_login form p {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background: #F00;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    width:120px;
+    text-align: center;
+}
